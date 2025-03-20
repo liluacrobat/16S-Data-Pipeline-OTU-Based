@@ -76,7 +76,7 @@ for x in $(ls *_R2_001.fastq); do /projects/academic/pidiazmo/projectsoftwares/f
 ```
 **Parameter:** `-f`: Number of bases trimmed from the beginning.
 
-## 4. Create Processing Directory and Link Sequence Files
+## 4. Create Processing Directory and Symbolic Links of Sequence Files
 ```bash
 mkdir Mothur_processing
 cd Mothur_processing
