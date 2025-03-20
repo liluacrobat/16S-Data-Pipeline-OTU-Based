@@ -94,7 +94,7 @@ Open `plate_16S.files` in Excel to verify correct sample names.
 ```bash
 sbatch Mothur_OTU_16S_S1.sh
 ```
-After completion, check `align_summary.txt` to determine start and end parameters for `screen.seqs` in `Mothur_OTU_16S_S2.sh`. Adjust `REF_FA` and `REF_TAX` based on project data type.
+After completion, check `align_summary.txt` based on the 2.5%-tile and 97.5%-tile to determine start and end parameters for `screen.seqs` in `Mothur_OTU_16S_S2.sh`. Adjust `REF_FA` and `REF_TAX` based on project data type.
 
 ## 7. Submit Mothur_OTU_16S_S2.sh Job
 ```bash
