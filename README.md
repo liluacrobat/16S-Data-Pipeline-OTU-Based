@@ -2,6 +2,7 @@
 
 ## Overview
 This pipeline provides instructions for processing 16S rRNA sequence data using Mothur on the CCR cluster. The pipeline includes data transfer, sequence quality assessment, trimming, and OTU-based analysis.
+This pipeline could be used for mice microbiomes and the samples whose microbiomes are not well characterized.
 
 ## 1. Transfer Data from Box to CCR
 Use Globus to transfer sequences from Box to the destination directory in CCR. The sequence files should be in `fastq.gz` format and placed in a folder named `fastq`.
